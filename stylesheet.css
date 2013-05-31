@@ -1,0 +1,66 @@
+#alert {
+	display: none;
+	margin-bottom: 1em;
+	font-size: 75%;
+}
+
+#credentials {
+	margin-bottom: 1em;
+	font-size: 85%;
+	display: inline-block;
+	text-align: center;
+	width: 280px;
+}
+#credentials label {
+	display: inline-block;
+	font-weight: bold;
+	text-align: left;
+	width: 100%;
+}
+
+#credentialResults {
+	display: none;
+	margin-top: .4em;
+	font-size: 75%;
+	color: red;
+}
+
+.code {
+	font-family: Consolas,Courier New,serif;
+}
+
+.smalltext {
+	font-size: 80%;
+}
+.tinytext {
+	font-size: 75%;
+}
+
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 90%;
+	background: #f4f4f4;
+	color: #404040;
+	text-align: center;
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+ul, ol {
+	display: inline-block;
+	margin-top: .2em;
+}
+li {
+	text-align: left;
+}
+
+h1 {
+	font-size: 156%;
+}
+h2 {
+	font-size: 130%;
+}
+h3 {
+	font-size: 105%;
+	margin-bottom: 2;
+}
