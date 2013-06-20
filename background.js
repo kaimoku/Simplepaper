@@ -47,7 +47,7 @@ function add(loc,title,tabid) {
 		return;
 	}
 
-	if (loc.indexOf("http://www.feedly.com/") == 0) {
+	if (loc.indexOf("http://www.feedly.com/") == 0 || loc.indexOf("http://cloud.feedly.com/") == 0) {
 		chrome.tabs.executeScript(tabid,{file:"feedly.js"});
 		return;
 	}
